@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <!-- 加入RWD讓寬度是直接適應在打開這個網頁的裝置 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="author" content="Jake Rocheleau">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 ">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!-- 這應該可有可無 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+  <link rel="stylesheet" type="text/css" href="Search.css">
+  <!-- <link rel="stylesheet" type="text/css" href="responsive.css"> -->
+</head>
+
+<title>搜尋</title>
+</head>
+
+<body style="background-color:rgb(161, 170, 174)" onunload="send(00)">
+  <header class="clearfix">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 " style="width: 100%; padding: 12px 20px; margin: 20px 0;">
+          <form>
+            <div class="form-group">
+              <label class="lefttop" for="No">保 單 編 號 </label>
+              <input class="form-control input-lg" id="masterBarcode" type="scannerinput" autofocus="autofocus" style="
+              width: 30%;
+              padding: 4px 4px;
+              margin: 8px 6px;
+              box-sizing: border-box;
+              border: 2px solid rgb(65, 85, 104);
+              border-radius: 10px;" </div>
+          </form>
+          </div>
+        </div>
+        <!-- 垂直置中測試
+        <div id="floater"></div> -->
+        <div class="list1">
+          <div class="show">
+            <label for="number">业务编码：</label>
+            <input type="text" style="font-size:9px" id="number" style=width:20px>
+          </div>
+
+          <div class="show">
+            <label for="position">保单类型：</label>
+            <input type="text" style="font-size:9px" id="type">
+          </div>
+
+          <div class="show">
+            <label for="providers">签收机构：</label>
+            <input type="text" style="font-size:9px" id="mechanism" disabled>
+          </div>
+
+          <div class="show">
+            <label for="branch">分支机构：</label>
+            <input type="text" style="font-size:9px" id="branch" disabled>
+          </div>
+
+          <div class="show">
+            <label for="home_page_number"> 物 流 商 ：</label>
+            <input type="text" style="font-size:9px" id="providers" disabled>
+          </div>
+
+          <div class="show">
+            <label for="product">物流编号：</label>
+            <input type="text" style="font-size:9px" id="providers_number" disabled>
+          </div>
+
+          <div class="show">
+            <label for="providers">首页编号：</label>
+            <input type="text" style="font-size:9px" id="home_page_number" disabled>
+          </div>
+
+          <div class="show">
+            <label for="product">生产产品：</label>
+            <input type="text" style="font-size:9px" id="product" disabled>
+          </div>
+
+          <div class="show">
+            <label for="product">发票号码：</label>
+            <input type="text" style="font-size:9px" id="invoice_number" disabled>
+          </div>
+        </div>
+
+
+
+
+
+  </header>
+</body>
+
+</html>

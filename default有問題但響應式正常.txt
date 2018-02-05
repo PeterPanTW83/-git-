@@ -1,0 +1,62 @@
+這是 Default 沒有修改, 響應式正常的版本
+
+* {
+    box-sizing: border-box;
+}
+	
+	
+	
+	.list1 {
+    /* margin: 5px 465px; */
+		width: 50%;
+		height: 50px;
+		float:left; 
+
+
+    font-size: 25px;
+    list-style-type: none;
+		line-height: 40px;
+
+  }
+
+  .list2 {
+		width: 50%;
+		height: 50px;
+		
+		float:right;  
+    font-size: 25px;
+    list-style-type: none;
+		line-height: 40px;
+  }
+
+  input[type=text] {
+    /* width: 95%; */
+    padding: 12px 100px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(138, 191, 244);
+    border-radius: 8px;
+
+  }
+
+  #content {
+    text-align: center;
+    vertical-align: top;
+    position: absolute;
+    top: 53.5%;
+    right: 5%;
+  }
+
+  .btn:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  .h {
+    text-transform: lowercase;
+    color: rgb(25, 109, 91);
+    text-align: center;
+
+  }
+/* html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; } */

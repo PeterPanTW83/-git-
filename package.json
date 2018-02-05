@@ -1,0 +1,20 @@
+{
+  "name": "Barcode_UI_View",
+  "version": "1.0.0",
+  "description": "eclectron project",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "electron-packager": "^10.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
+}

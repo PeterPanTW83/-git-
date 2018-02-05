@@ -1,0 +1,99 @@
+@media only screen and (max-width: 800px), screen and (max-height: 480px) {
+	h1 { font-size: 4.5em; }
+	p { display: block; text-align: center; }
+
+	.list1{
+		width: 100%;
+		padding: 126px;
+    bottom: 115px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+	}
+
+	.list2{
+		padding: 126px;
+    bottom: -43px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+	}
+
+	.container { padding: 20px 15px; }
+	show { padding: 0; }
+}
+
+
+@media (max-width: 739px) and (min-width: 570px){
+	p { display: block; text-align: center; }
+	.list1 {
+		padding: 80px;
+		text-align: center;
+		
+	}
+	.list2 {
+    padding: 100px;
+    bottom: -405px;
+    width: 100%;
+    position: relative;
+		margin: auto;
+		text-align: center;
+
+	}
+}
+
+
+@media (max-width: 569px) and (min-width: 480px){
+	p { display: block; text-align: center; }
+	.list1 { 
+		padding: 50px;
+    bottom: 85px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+
+	}
+	.list2 {  
+    padding: 67px;
+    bottom: -475px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+	}
+	/* #container { } */
+}
+
+
+/* @media only screen and (max-width: 570px) {
+	p { display: block; text-align: center; }
+	.list1 {
+		padding: 80px;
+		text-align: center;
+		
+	}
+	label{
+		color:red;
+	}
+	.list2 {
+    padding: 100px;
+    bottom: -385px;
+    width: 100%;
+    position: relative;
+		margin: auto;
+		text-align: center;
+
+	}
+}
+ */
+
+
+/* @media only screen and (max-width: 320px) {
+	#container { margin: 0 10px; }
+} */
+
+/* iPhone only 
+@media screen and (max-device-width: 480px) {
+	#list1 { width: 150px; }
+	#list2 { width: 150px; } */
+

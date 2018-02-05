@@ -1,0 +1,18 @@
+使用手冊：
+
+index.html 檔案（剩下的不是很重要）
+Self.html 檔案 （測試Bootstrap簡單Layout功能）
+
+
+
+
+1170px .con-lg-
+
+970px .com-md-
+
+750px .com-sm-
+
+auto .col-xs-
+
+最小 7寸   800 * 480 畫面要正常
+最大 10寸 1280 * 800
